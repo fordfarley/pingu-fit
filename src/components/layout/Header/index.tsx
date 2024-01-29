@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <Wrapper>
-        <Image src="/logo.png" width={195} height={60} alt="logo"/>
+        <Image src="/Logo.png" width={195} height={65} alt="logo"/>
         <Burger
         isOpen={isOpen}
         burgerColor='white'

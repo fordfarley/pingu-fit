@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import theme from "@/styles/theme";
 import GlobalStyle from "@/styles/globals";
 import { ThemeProvider } from "styled-components";
+import Providers from '@/store/provider';
 
 const outfit = Outfit({
   weight: ['400', '600'],
@@ -17,7 +18,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       {/* <SessionProvider> */}
+      <Providers>
         <Component {...pageProps} />
+        </Providers>
       {/* </SessionProvider> */}
       <GlobalStyle />
     </ThemeProvider>

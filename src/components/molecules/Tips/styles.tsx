@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Large ,SuperHero } from "@/components/layout/FontScale";
+import { Big, Large ,SuperHero } from "@/components/layout/FontScale";
 
 export const TipsMenu = styled.div<{ isOpen: boolean }>`
   display: flex;
@@ -23,11 +23,18 @@ export const TipsMenu = styled.div<{ isOpen: boolean }>`
   gap:10px;
 `;
 
-export const StyledSH = styled(Large)`
+export const StyledSH = styled(Big)`
   color: ${({ theme: { colors } }) => `${colors.neutral_25}`};
   background-color: ${({ theme: { colors } }) => `${colors.bgBlue}`};
   width:80%;
-  padding:${({ theme: { spacing } }) => `${spacing._04}`};
+`;
+
+export const StyledRemember = styled(Big)`
+  color: ${({ theme: { colors } }) => `${colors.neutral_white}`};
+  background-color: ${({ theme: { colors } }) => `${colors.neutral_400}`};
+  padding:5px 0;
+  margin-top:20px;
+  width:70%;
 `;
 
 export const TipsWrapper = styled.div`
