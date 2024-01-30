@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import Layout from "@/components/layout/Layout";
 import User from "@/components/atoms/User";
 import styled from 'styled-components';
+import Link from "next/link";
 
 import users from "@/data/users";
 
@@ -22,7 +23,7 @@ export default function Home() {
   return (
     <Layout>
       <UsersWrapper>
-        {users.map(elem => <User user={elem}/>)}
+        {users.map(elem => <Link href="/trainings"><User user={elem}/></Link>)}
       </UsersWrapper>
     </Layout>
   );

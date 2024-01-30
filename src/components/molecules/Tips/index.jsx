@@ -19,13 +19,13 @@ const Tips = ({exercise}) => {
     <>
       <TipsMenu isOpen={tipsIsOpen}>
         <IoIosArrowDown size={30} onClick={() => setTipsIsOpen(false)} />
-        <div style={{display:"flex", gap:"10px"}}>
-          <div style={{width:"48%"}}>
+        <div style={{display:"flex", gap:"10px", justifyContent:'center'}}>
+          <div style={{width:"40%"}}>
           <StyledSH center noMargin style={{width:"100%"}}> EJERCICIO </StyledSH>  
           <Big noMargin>{exercise.name.toUpperCase()}</Big>
           </div>
           <VerticalLine />
-          <div style={{width:"48%"}}>
+          <div style={{width:"40%"}}>
             <StyledSH center noMargin style={{width:"100%"}}> MÚSCULO </StyledSH>  
             <Big noMargin >{`${musclePart.toUpperCase()}`}</Big>
           </div>

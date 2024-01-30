@@ -99,7 +99,7 @@ const Exercise = () => {
               <Big right noMargin>{`ÚLTIMO PESO`}</Big>
               <VerticalLine />
               <StyledSH bold noMargin>
-                50 <Big noMargin>Kg</Big>
+                {/* 50 <Big noMargin>Kg</Big> */}
               </StyledSH>
             </MiddleWrapper>
             <MiddleWrapper>

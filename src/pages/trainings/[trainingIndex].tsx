@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Layout from "@/components/layout/Layout";
 import { getTraining } from "@/data/exercises";
+import { startTraining } from "@/utilities/storageManagement";
 import { trainings, getExercisesIds, getExercisesSeries } from "@/data/trainings";
 import { Big, SuperHero } from "@/components/layout/FontScale";
 import BadgeTitle from "@/components/atoms/BadgeTitle";
@@ -34,9 +35,8 @@ const TrainingIndex = () => {
     exercisesIds && exercisesIds.length > 0 ? getTraining(exercisesIds) : null;
 
   const handleStart = () => {
-    localStorage.setItem("exercises", JSON.stringify(exercisesIds));
-    localStorage.setItem("series", JSON.stringify(exercisesSeries));
-    localStorage.setItem("session", JSON.stringify({}));
+    if(exercisesIds!==null && exercisesSeries!==null && index)
+    startTraining(exercisesIds, exercisesSeries, index);
   };
 
   return (
@@ -96,7 +96,8 @@ const TrainingIndex = () => {
                   {` SESIONES`}
                 </Button>
               </Link>
-              <Link href={`/exercise/${exercisesIds[0]}`}><Button
+              <Link href={`/exercise/${exercisesIds[0]}`}>
+                <Button
                 minWidth="49%"
                 onClick={handleStart}
                 style={{ display: "flex", gap: "10px" }}

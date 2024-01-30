@@ -3,13 +3,14 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { Wrapper, Burger, Menu } from './styles';
 import { Large } from '../FontScale';
+import Link from 'next/link';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <Wrapper>
-        <Image src="/Logo.png" width={195} height={65} alt="logo"/>
+        <Link href="/"><Image src="/Logo.png" width={195} height={65} alt="logo"/></Link>
         <Burger
         isOpen={isOpen}
         burgerColor='white'

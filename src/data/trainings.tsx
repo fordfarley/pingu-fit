@@ -2,21 +2,42 @@ import Training from "./types/training";
 
 export const trainings = [
   {
-    name:'Pectorales',
-    route:'pectorales',
+    name:'Pecho & Triceps',
+    route:'pechotriceps',
     exercises:[
       {
-        id:0,
+        id:1,
         series:4,
       },
       {
-        id:3,
+        id:12,
         series:3,
       },
       {
-        id:0,
+        id:11,
         series:3,
       },
+      {
+        id:2,
+        series:3,
+      },
+      {
+        id:16,
+        series:3,
+      },
+      {
+        id:26,
+        series:4,
+      },
+      {
+        id:33,
+        series:3,
+      },
+      {
+        id:31,
+        series:3,
+      },
+
     ]
   }
 ];

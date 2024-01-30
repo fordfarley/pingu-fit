@@ -25,8 +25,12 @@ export const ExerciseWrapper = styled.div`
 `;
 
 export const SeriesWrapper = styled.div`
-    width:25%;
+    display:flex;
+    min-width:25%;
     text-align:center;
+    justify-content:center;
+    align-items:center;
+
     background-color:${({ theme: { colors } }) => colors.bgBlue};
     color:${({ theme: { colors } }) => colors.neutral_25};
 
