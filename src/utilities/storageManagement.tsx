@@ -76,8 +76,8 @@ export const getSession = () =>{
     return (ids.map(id => {
       let series = session[id].length;
       let maxWeight = 0;
-      session[id].forEach(elem => {if(elem>maxWeight) maxWeight=elem});
-      let weights = session[id].map(elem => parseInt(elem));
+      session[id].forEach((elem:number) => {if(elem>maxWeight) maxWeight=elem});
+      let weights = session[id].map((elem:string) => parseInt(elem));
       return { id, series, maxWeight }
     }))
   }
