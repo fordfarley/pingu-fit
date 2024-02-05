@@ -97,8 +97,8 @@ const theme = {
   },
 
   breakpoints: {
-    mobileS: `(min-width: 320px)`,
-    mobileM: `(min-width: 375px)`,
+    mobileS: `(min-width: 220px)`,
+    mobileM: `(min-width: 250px)`,
     mobileL: `(min-width: 475px)`,
     mobileXL: `(min-width: 576px)`,
     tablet: `(min-width: 768px)`,

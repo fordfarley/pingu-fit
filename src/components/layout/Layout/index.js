@@ -15,6 +15,7 @@ const Content = styled.div`
     height:80px;
     padding:${({noPadding})=> noPadding ? '0' : `0 ${theme.layoutPadding.mobile}`};
     background: ${({ theme: { colors } }) => colors.bgMain};
+    position:relative;
 `;
 
 const PageContainer = styled.div`
@@ -30,7 +31,7 @@ const Layout = (props) => {
   return (
     <PageContainer>
         <Header handleClick={handleClick} />
-        <Content noPadding={props.noPadding}>
+        <Content noPadding={props.noPadding} index={props.index}>
             {props.children}
         </Content>
         <Footer />

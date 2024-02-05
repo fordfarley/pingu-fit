@@ -11,6 +11,7 @@ import BadgeTitle from "@/components/atoms/BadgeTitle";
 import {
   TrainingsList,
   TrainingWrapper,
+  MuscleAnimation,
   BadgeContinue,
 } from "@/styles/pages/trainings";
 
@@ -59,6 +60,7 @@ const Trainings = () => {
       <TrainingsList>
         {current!==null && 
           <TrainingWrapper onClick={handleContinue}>
+            <MuscleAnimation route={trainings[current].image} />
             {trainings[current].name.toUpperCase()}
               <BadgeContinue noMargin center>
                 CONTINUAR
@@ -68,6 +70,7 @@ const Trainings = () => {
         }
         {trainings.map((elem: Training, index: number) => (
             <TrainingWrapper onClick={()=>handleRedirect(index)}>
+              <MuscleAnimation route={elem.image} />
               {elem.name.toUpperCase()}
               {current === index && (
                 <BadgeContinue noMargin center newTrain>

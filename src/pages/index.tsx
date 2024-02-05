@@ -17,7 +17,21 @@ const UsersWrapper = styled.div`
   margin: 0 auto;
   flex-wrap: wrap;
   gap: 55px;
+  z-index:1;
 `;
+
+const UsersBackground = styled.div`
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-image: url("/bgMain.jpg");
+  background-size:cover;
+  background-position:00% 10%;  
+  z-index:0;
+  filter: blur(0.8px);
+`;
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,7 +46,8 @@ export default function Home() {
   };
 
   return (
-    <Layout>
+    <Layout index>
+      <UsersBackground />
       <UsersWrapper>
         {users.map((elem) => (
           <User
