@@ -849,8 +849,8 @@ export const exercises = [
     "muscle": 6,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Apoya completamente el brazo en el banco durante todo el recorrido del movimiento",
+      "Trata de evitar aprovechar la inercia del rebote, controla el movimiento en la subida y en la bajada",
     ],
     "image": "/Exercises/forearms/Barbell-Reverse-Wrist-Curl-Over-a-Bench.gif"
   },
@@ -860,8 +860,7 @@ export const exercises = [
     "muscle": 6,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Deja que el peso abra los dedos de la mano y luego haz fuerza para cerrarla.",
     ],
     "image": "/Exercises/forearms/Dumbbell-Finger-Curl.gif"
   },
@@ -871,8 +870,8 @@ export const exercises = [
     "muscle": 6,
     "musclePart": 2,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Apoya el brazo completamnete en la pierna durante todo el movimiento",
+      "Trata de evitar aprovechar la inercia del rebote, controla el movimiento en la subida y en la bajada",
     ],
     "image": "/Exercises/forearms/Dumbbell-Seated-Neutral-Wrist-Curl.gif"
   },
@@ -882,8 +881,8 @@ export const exercises = [
     "muscle": 6,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Apoya el codo completamnete en la pierna durante todo el movimiento",
+      "Trata de evitar aprovechar la inercia del rebote, controla el movimiento en la subida y en la bajada",
     ],
     "image": "/Exercises/forearms/Dumbbell-Wrist-Curl.gif"
   },
@@ -893,8 +892,8 @@ export const exercises = [
     "muscle": 6,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Apoya el brazo completamnete en la pierna durante todo el movimiento",
+      "Trata de evitar aprovechar la inercia del rebote, controla el movimiento en la subida y en la bajada",
     ],
     "image": "/Exercises/forearms/Reverse-Wrist-Curl.gif"
   },
@@ -904,8 +903,9 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Cuando bajes, manten la parte superior del cuerpo firme activanto el abdomen, y al subir lo mismo",
+      "Aprieta el glúteo en la subida para mejorar su activación y mantén las tibias y cuadriceps a 90 grados en el punto más alto",
+      "Baja bien el glúteo en la parte baja del movimiento",
     ],
     "image": "/Exercises/legs/Barbell-Hip-Thrust.gif"
   },
@@ -915,8 +915,7 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 3,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Apoya el peso sobre las piernas y trata de no ayudarte con las manos en el movimiento de subida",
     ],
     "image": "/Exercises/legs/Barbell-Seated-Calf-Raise.gif"
   },
@@ -926,8 +925,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 2,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Al bajar trata de que la rodilla no se avance más allá del tobillo (para ello asegurate de ir hacia atrás al bajar y bajar bien la rodilla",
+      "El salto no es necesario al principio",
     ],
     "image": "/Exercises/legs/Bulgarian-Jump-Squat.gif"
   },
@@ -937,8 +936,9 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 5,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Es muy importante no mover la cadera a lo largo del movimiento de lado a lado.",
+      "Trara de no balancearte a los lados para centrar el esfuerzo en el aductor de la cadera.",
+      "Controla el movimiento de subida y de bajada, es mejor hacer movimientos cortos pero bien controlados.",
     ],
     "image": "/Exercises/legs/Cable-Hip-Abduction.gif"
   },
@@ -948,8 +948,7 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Trata de mantenerte recto y inclínate suavemente hacia alante cuando la pierna vaya hacia atrás, pero concéntrate en el esfuerzo de los glúteos e isquiotibiales",
     ],
     "image": "/Exercises/legs/Cable-Hip-Extension.gif"
   },
@@ -959,8 +958,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Mantén las tibias bien pegadas al suelo durante todo el movimiento.",
+      "Ve todo lo atrás que puedas en la bajada, y aprieta el glúteo en la subida.",
     ],
     "image": "/Exercises/legs/Cable-Kneeling-Pull-Through.gif"
   },
@@ -970,8 +969,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "No muevas los pies en ningún momento del recorrido, son las piernas las que se flexionan pero los pies no deben moverse.",
+      "Ve bien hacia atrás en la bajada y aprieta el glúteo en la subida.",
     ],
     "image": "/Exercises/legs/Cable-Pull-Through.gif"
   },
@@ -981,8 +980,7 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 2,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Al bajar trata de que la rodilla no se avance más allá del tobillo (para ello asegurate de ir hacia atrás al bajar y bajar bien la rodilla.",
     ],
     "image": "/Exercises/legs/Dumbbell-Bulgarian-Split-Squat.gif"
   },
@@ -992,8 +990,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 3,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "No dobles las rodillas en ningún momento (mantén las piernas rectas para focalizar la fuerza en el gemelo).",
+      "Al bajar, si llevas los talones por debajo de los pies (usando un step o escalón) harás que el movimiento sea más completo.",
     ],
     "image": "/Exercises/legs/Dumbbell-Calf-Raise.gif"
   },
@@ -1003,8 +1001,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 2,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Al bajar trata de que la rodilla no se avance más allá del tobillo (para ello asegurate de no inclinarte demasiado hacia alante).",
+      "Mantén el pie de atrás apoyando la bola del pie durante toda la bajada y subida.",
     ],
     "image": "/Exercises/legs/Dumbbell-Lunge.gif"
   },
@@ -1014,8 +1012,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 2,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Al bajar trata de que la rodilla no se avance más allá del tobillo (para ello asegurate de no inclinarte demasiado hacia alante).",
+      "Mantén el pie de atrás apoyando la bola del pie durante toda la bajada y subida.",
     ],
     "image": "/Exercises/legs/dumbbell-lunges.gif"
   },
@@ -1025,8 +1023,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "No muevas los pies en ningún momento del recorrido, son las piernas las que se flexionan pero los pies no deben moverse.",
+      "Ve bien hacia atrás en la bajada y aprieta el glúteo en la subida.",
     ],
     "image": "/Exercises/legs/Dumbbell-Pull-Through.gif"
   },
@@ -1036,8 +1034,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "No muevas los pies en ningún momento del recorrido, son las piernas las que se flexionan pero los pies no deben moverse.",
+      "Ve bien hacia atrás en la bajada y aprieta el glúteo en la subida.",
     ],
     "image": "/Exercises/legs/Dumbbell-Squat.gif"
   },
@@ -1047,8 +1045,9 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Empieza el movimiento con los pies abiertos 45 grados y con una anchura de pies ligeramente superior a la de los hombros.",
+      "No muevas los pies en ningún momento del recorrido, son las piernas las que se flexionan pero los pies no deben moverse.",
+      "Ve bien hacia atrás en la bajada y aprieta el glúteo en la subida.",
     ],
     "image": "/Exercises/legs/dumbbell-sumo-deadlift.gif"
   },
@@ -1058,8 +1057,7 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 3,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "No dobles las rodillas en ningún momento (mantén las piernas rectas para focalizar la fuerza en el gemelo).",
     ],
     "image": "/Exercises/legs/Hack-Machine-One-Leg-Calf-Raise.gif"
   },
@@ -1069,8 +1067,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 5,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Mantén la espalda en contacto con el respaldo en todo momento del movimiento.",
+      "Sobretodo en el momento de apertura, es posible que la lumbar se separe, activando el abdomen lo evitarás.",
     ],
     "image": "/Exercises/legs/HiP-ABDUCTION-MACHINE.gif"
   },
@@ -1080,8 +1078,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 4,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Mantén la espalda en contacto con el respaldo en todo momento del movimiento.",
+      "Sobretodo en el momento de apertura, es posible que la lumbar se separe, activando el abdomen lo evitarás.",
     ],
     "image": "/Exercises/legs/HIP-ADDUCTION-MACHINE.gif"
   },
@@ -1091,8 +1089,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Intenta que la rodilla más o menos caiga en el fin del asiento, es decir, que no vuele mucho más allá del asiento.",
+      "Para ello ajusta el respaldo tan atrás como necesites. De ese modo conseguiras protejer tus rodillas durante el esfuerzo.",
     ],
     "image": "/Exercises/legs/LEG-EXTENSION.gif"
   },
@@ -1102,8 +1100,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Mantén la espalda totalmente apoyada durante todo el movimiento.",
+      "Si pones los pies un poco más arriba en la plataforma, enfocarás más el esfuerzo en los glúteos.",
     ],
     "image": "/Exercises/legs/Leg-Press.gif"
   },
@@ -1113,8 +1111,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Mantén la espalda totalmente apoyada durante todo el movimiento.",
+      "Si pones los pies un poco más arriba en la plataforma, enfocarás más el esfuerzo en los glúteos.",
     ],
     "image": "/Exercises/legs/Lever-Horizontal-Leg-Press.gif"
   },
@@ -1124,8 +1122,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 2,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Intenta que la rodilla más o menos caiga en el fin del asiento, es decir, que no vuele mucho más allá del asiento.",
+      "Para ello ajusta el respaldo tan atrás como necesites. De ese modo conseguiras protejer tus rodillas durante el esfuerzo.",
     ],
     "image": "/Exercises/legs/Seated-Leg-Curl.gif"
   },
@@ -1135,8 +1133,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Intenta que la rodilla más o menos caiga en el fin del asiento, es decir, que no vuele mucho más allá del asiento.",
+      "Para ello ajusta el respaldo tan atrás como necesites. De ese modo conseguiras protejer tus rodillas durante el esfuerzo.",
     ],
     "image": "/Exercises/legs/Single-Leg-Extension.gif"
   },
@@ -1190,8 +1188,7 @@ export const exercises = [
     "muscle": 8,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Al subir intenta que la lumbar no se despegue del suelo, como si quisieras empujar el ombligo contra el suelo.",
     ],
     "image": "/Exercises/abs/Crunch.gif"
   },
@@ -1201,8 +1198,7 @@ export const exercises = [
     "muscle": 8,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "No hace falta subir en exceso, es preferible no separar la lumbar del suelo para poder proteger la espalda en el movimiento.",
     ],
     "image": "/Exercises/abs/Floor-Crunch.gif"
   },
@@ -1212,8 +1208,8 @@ export const exercises = [
     "muscle": 8,
     "musclePart": 0,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Trata de empujar el ombligo hacia atrás y aprieta el glúteo, para mantener el cuerpo lo más recto posible.",
+      "Aguanta como mucho un minuto, si puedes aguantar más es que no estás apretando suficiente ni el abdomen ni el glúteo.",
     ],
     "image": "/Exercises/abs/plank.gif"
   },
@@ -1223,8 +1219,8 @@ export const exercises = [
     "muscle": 8,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Trata de empujar el ombligo hacia atrás y aprieta el glúteo, para mantener el cuerpo lo más recto posible.",
+      "Aguanta como mucho un minuto, si puedes aguantar más es que no estás apretando suficiente ni el abdomen ni el glúteo.",
     ],
     "image": "/Exercises/abs/Side-Bridge.gif"
   },
@@ -1234,8 +1230,8 @@ export const exercises = [
     "muscle": 8,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Trata de empujar el ombligo hacia atrás y aprieta el glúteo, para mantener el cuerpo lo más recto posible.",
+      "Aguanta como mucho un minuto, si puedes aguantar más es que no estás apretando suficiente ni el abdomen ni el glúteo.",
     ],
     "image": "/Exercises/abs/Side-Plank-1.webp"
   }
