@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Layout from "@/components/layout/Layout";
-import { exercises, getSubstitutes } from "@/data/exercises";
+import { exercises, getSubstitutes, getExerciseById } from "@/data/exercises";
 import { nextExercise, moveExercise } from "../../utilities/storageManagement";
 import { Big, SuperHero } from "@/components/layout/FontScale";
 import BadgeTitle from "@/components/atoms/BadgeTitle";
@@ -43,8 +43,8 @@ const Exercise = () => {
     let sessionSeries = JSON.parse(localStorage.getItem("series"));
     if (sessionSeries && sessionSeries.length > 0) setSeries(sessionSeries[0]);
   }, [router]);
-
-  let movement = id ? exercises[id] : null;
+  
+  let movement = id ? getExerciseById(id) : null;
   let substitutes = id ? getSubstitutes(movement.id) : null;
 
   const handleWeight = (increment) => {
