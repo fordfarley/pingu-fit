@@ -1144,8 +1144,7 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Si bajas bien abajo, se activarán los glúteos, en caso contrario, los cuadriceps asumen el esfuerzo.",
     ],
     "image": "/Exercises/legs/Sled-Hack-Squat.gif"
   },
@@ -1155,8 +1154,8 @@ export const exercises = [
     "muscle": 7,
     "musclePart": 2,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Al bajar trata de que la rodilla no se avance más allá del tobillo (para ello asegurate de no inclinarte demasiado hacia alante).",
+      "Mantén el pie de atrás apoyando la bola del pie durante toda la bajada y subida."
     ],
     "image": "/Exercises/legs/Static-Lunge.gif"
   },
@@ -1166,8 +1165,7 @@ export const exercises = [
     "muscle": 8,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Al subir intenta que la lumbar no se despegue del suelo, como si quisieras empujar el ombligo contra el suelo.",
     ],
     "image": "/Exercises/abs/Bicycle-Crunch.gif"
   },
@@ -1177,8 +1175,8 @@ export const exercises = [
     "muscle": 8,
     "musclePart": 1,
     "tips": [
-      "Consejo1: is simply dummy text of the printing and typesetting industry.",
-      "Consejo2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Al subir intenta que la lumbar no se despegue del suelo, como si quisieras empujar el ombligo contra el suelo.",
+      "No hace falta subir en exceso, es preferible no separar la lumbar del suelo para poder proteger la espalda en el movimiento.",
     ],
     "image": "/Exercises/abs/Cross-Crunch.gif"
   },

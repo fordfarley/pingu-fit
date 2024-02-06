@@ -76,7 +76,7 @@ const End = () => {
               );
             })}
           </ExercisesList>
-          <LuPartyPopper size={50} color="#C59000"/>
+          {/* <LuPartyPopper size={50} color="#C59000"/> */}
           <div
             style={{
               display: "flex",
