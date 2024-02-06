@@ -89,7 +89,7 @@ const Trainings = () => {
           minWidth="90%"
           style={{ display: "flex", gap: "10px", margin: "10px 0" }}
         >
-          {`DATOS ÚLTIMO ENTRENO`}
+          {`ÚLTIMO ENTRENO`}
         </Button>
         </Link>}
       <Link href="/" style={{ width: "70%" }}>
