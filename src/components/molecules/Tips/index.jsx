@@ -19,21 +19,21 @@ const Tips = ({exercise}) => {
     <>
       <TipsMenu isOpen={tipsIsOpen}>
         <IoIosArrowDown size={30} onClick={() => setTipsIsOpen(false)} />
-        <div style={{display:"flex", gap:"10px", justifyContent:'center'}}>
-          <div style={{width:"40%"}}>
+        <div style={{display:"flex", gap:"10px", justifyContent:'center', width:'80%'}}>
+          <div style={{width:"50%"}}>
           <StyledSH center noMargin style={{width:"100%"}}> EJERCICIO </StyledSH>  
-          <Big noMargin>{exercise.name.toUpperCase()}</Big>
+          <Big center noMargin>{exercise.name.toUpperCase()}</Big>
           </div>
           <VerticalLine />
-          <div style={{width:"40%"}}>
+          <div style={{width:"50%"}}>
             <StyledSH center noMargin style={{width:"100%"}}> MÚSCULO </StyledSH>  
-            <Big noMargin >{`${musclePart.toUpperCase()}`}</Big>
+            <Big center noMargin >{`${musclePart.toUpperCase()}`}</Big>
           </div>
         </div>
-        <StyledRemember noMargin center>Recuerda:</StyledRemember>
+        <StyledRemember noMargin center style={{width:'80%'}}>Recuerda:</StyledRemember>
         <TipsWrapper>
             {exercise.tips.map(elem => (
-                <div key={`${elem}`}>{elem}</div>
+                <div key={`${elem}`} style={{marginBottom:'15px'}}>{elem}</div>
             ))}
         </TipsWrapper>
         <Button minWidth="80%" onClick={() => setTipsIsOpen(false)}>

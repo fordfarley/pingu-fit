@@ -21,6 +21,7 @@ import { parseDate } from "@/utilities/dateServices";
 
 const Trainings = () => {
   const [current, setCurrent] = useState(null);
+  const [hasSession, setHasSession] = useState(false);
   const [lastExercise, setLastExercise] = useState(null);
   const router = useRouter();
 
@@ -30,25 +31,28 @@ const Trainings = () => {
     let last = exercises ? JSON.parse(exercises)[0] : null;
     let savedSession = session ? JSON.parse(session) : {};
     savedSession.id = parseInt(savedSession.id);
+    if(savedSession && Object.keys(savedSession).length>1){
+      setHasSession(true);
+    }
     let today = parseDate(new Date());
     if (savedSession.date === today) {
-      setCurrent(savedSession.id)
+      setCurrent(savedSession.id);
       setLastExercise(last);
-    };
+    }
   }, []);
 
   const handleClean = () => {
     localStorage.setItem("session", JSON.stringify({}));
   };
 
-  const handleRedirect = (index:number) =>{
-      handleClean();
-      router.push(`/trainings/${index}`);
-  }
+  const handleRedirect = (index: number) => {
+    handleClean();
+    router.push(`/trainings/${index}`);
+  };
 
-  const handleContinue = () =>{
+  const handleContinue = () => {
     router.push(`/exercise/${lastExercise}`);
-  }
+  };
 
   return (
     <Layout noPadding>
@@ -58,38 +62,46 @@ const Trainings = () => {
         </Big>
       </BadgeTitle>
       <TrainingsList>
-        {current!==null && 
+        {current !== null && (
           <TrainingWrapper onClick={handleContinue}>
             <MuscleAnimation route={trainings[current].image} />
             {trainings[current].name.toUpperCase()}
-              <BadgeContinue noMargin center>
-                CONTINUAR
-              </BadgeContinue>
-      
+            <BadgeContinue noMargin center>
+              CONTINUAR
+            </BadgeContinue>
           </TrainingWrapper>
-        }
+        )}
         {trainings.map((elem: Training, index: number) => (
-            <TrainingWrapper onClick={()=>handleRedirect(index)}>
-              <MuscleAnimation route={elem.image} />
-              {elem.name.toUpperCase()}
-              {current === index && (
-                <BadgeContinue noMargin center newTrain>
-                  NUEVO ENTRENO
-                </BadgeContinue>
-              )}
-            </TrainingWrapper>
+          <TrainingWrapper onClick={() => handleRedirect(index)}>
+            <MuscleAnimation route={elem.image} />
+            {elem.name.toUpperCase()}
+            {current === index && (
+              <BadgeContinue noMargin center newTrain>
+                NUEVO ENTRENO
+              </BadgeContinue>
+            )}
+          </TrainingWrapper>
         ))}
       </TrainingsList>
-      <Link href="/" style={{width:"70%"}}>
-                <Button
-                  btnType="tertiary"
-                  minWidth="90%"
-                  style={{ display: "flex", gap: "10px", margin:"10px 0" }}
-                >
-                  <IoMdArrowBack color="white" size={20} />
-                  {` USUARIOS`}
-                </Button>
-              </Link>
+      {hasSession && <Link href="/trainings/end" style={{ width: "70%" }}>
+      <Button
+          btnType="primary"
+          minWidth="90%"
+          style={{ display: "flex", gap: "10px", margin: "10px 0" }}
+        >
+          {`DATOS ÚLTIMO ENTRENO`}
+        </Button>
+        </Link>}
+      <Link href="/" style={{ width: "70%" }}>
+        <Button
+          btnType="tertiary"
+          minWidth="90%"
+          style={{ display: "flex", gap: "10px", margin: "10px 0" }}
+        >
+          <IoMdArrowBack color="white" size={20} />
+          {` USUARIOS`}
+        </Button>
+      </Link>
     </Layout>
   );
 };

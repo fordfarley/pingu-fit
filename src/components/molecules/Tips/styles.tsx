@@ -39,7 +39,7 @@ export const StyledRemember = styled(Big)`
 
 export const TipsWrapper = styled.div`
   flex-grow:1;
-  width:80%;
+  width:88%;
   padding:${({ theme: { spacing } }) => `${spacing._04}`};
   font-size: ${({ theme: { fontScale } }) => `${fontScale.big.size}`};
   overflow:scroll;

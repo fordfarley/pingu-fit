@@ -64,7 +64,6 @@ export const finishTraining = () =>{
     localStorage.removeItem("series");
     localStorage.setItem("session", JSON.stringify(session));
   }
-  
 }
 
 export const getSession = () =>{
