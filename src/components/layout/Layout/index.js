@@ -21,8 +21,8 @@ const Content = styled.div`
 const PageContainer = styled.div`
   display:flex;
   flex-direction:column;
-  min-height:100vh;
-  min-height: 100svh;
+  height:100vh;
+  height: 100svh;
 `;
 
 const Layout = (props) => {
